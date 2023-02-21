@@ -68,3 +68,21 @@ a:hover{
     font-size: 15px;
     color: white;
 }
+#grid{
+    /* background-color: #efefef; */
+    background-color: #f6f1ee;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:112px;
+    width: 65%;
+    padding-top: 58px;
+    margin-left: 312px;
+}
+.gitem{
+    background-color: #efefef;
+    text-align: center;
+    width: 135%;
+    padding-top: 20px;
+}
